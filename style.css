@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    font-family: 'Hanken Grotesk';
+}
+h4 {
+    display: block;
+    /* font-size: .67em; */
+    /* margin-top: 2.33em; */
+    /* margin-bottom: 2.33em; */
+    margin-left: 0;
+    margin-right: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+/*first section*/
+.main {
+    background-image: linear-gradient(#6541FD, #5239F5, #332DE9);
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+
+.small-heading {
+    color: #fff;
+    font-size: 14px;
+    opacity: 75%;
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px 0 0;
+}
+.smaller-heading {
+    color: #fff;
+    font-size: 10px;
+    opacity: 75%;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+h1 {
+    padding-top: 20px;
+    font-size: 3.5rem;
+    color: #fff;
+    margin-bottom: 0 ;
+    font-weight: 600;
+    font-family: 'Hanken Grotesk';
+}
+h2 {
+    padding-bottom: 0;
+    color: #fff;
+    margin-bottom: 0 ;
+    font-weight: 600;
+    font-family: 'Hanken Grotesk';
+}
+.circle {
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom right, #324ab2, #1f45b88a);
+}
+
+/*second container*/
+.second {
+    margin: 0;
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    background-color: #fff;
+    padding-top: 20px;
+}
+.react {
+    width: 85%;
+    display: flex;
+    border-radius: 10px;
+    margin: 0 auto 10px;
+}
+.reactions {
+        font-weight: 500;
+        font-family: Hanken Grotesk;
+        line-height: 1;
+        width: 100px;
+        margin-left: -11px;
+}
+.values {
+    margin-left: 70px;
+    font-weight: 800;
+    font-family: Hanken Grotesk;
+}
+
+.percent {
+    margin-left: 3px;
+    font-weight: 400;
+    font-family: Hanken Grotesk;
+    color: black;
+    opacity: 75%;
+}
+img {
+    padding-left: 10px ;
+}
+#one {
+    background-color: #FFE1E0;
+}
+#two {
+    color: #D06C6A;
+}
+#mem {
+    background-color: #FFFBF2;
+}
+
+#memory {
+    color: #e8c698;
+}
+
+#vis {
+    background-color: #F3F3FD;
+}
+
+#visual {
+    color: #202778;
+  
+}
+
+#verb {
+    background-color: #F2FBFA;
+}
+#verbal {
+    color: #39A887;
+}
+.btn {
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #394460;
+    border: 0;
+    margin-top: 10px;
+}
+.btn:hover {
+    background-color: hsl(222, 91%, 46%);
+}
+.sum {
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 0 0 10px 25px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    background-image: linear-gradient(#6541FD, #5239F5, #332DE9);
+    height: 30px;
+    width: 300px;
+    padding: 30px ;
+  }
+
+  .attribution a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .desktop {
+    position: relative;
+  }
+  
+  @media (min-width: 600px){
+.desktop {
+    margin: 50px auto;
+}
+  .main {
+    position: absolute;
+    left: 300px;
+    border-radius: 20px;
+  }
+.second {
+    position: absolute;
+    left: 600px;
+  }
+  .attribution {
+    position: absolute;
+    top: 450px;
+    width: 700px;
+    left: 200px;
+  }
+}
